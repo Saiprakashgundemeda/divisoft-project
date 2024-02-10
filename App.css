@@ -1,0 +1,44 @@
+.background {
+    color: aliceblue;
+    background-color: #282c34;
+    background-size: cover;
+    padding: 20px; /* Add padding to create space around the table */
+  }
+  
+  .nav-row {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%; /* Ensure the table occupies the entire width */
+    border-collapse: collapse; /* Collapse borders between cells */
+  }
+  
+  th, td {
+    padding: 10px; /* Add padding to cells */
+    text-align: left; /* Align text to the left within cells */
+  }
+  
+  th {
+    font-size: 25px;
+  }
+  
+  td {
+    margin-right: 20px; /* Add margin between columns */
+  }
+  
+  button {
+    margin-right: 5px; /* Add some space between buttons */
+  }
+
+  .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
